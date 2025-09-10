@@ -59,12 +59,11 @@ with col2:
     st.subheader("💖 Choose Aiko’s Look")
     choice = st.radio(
         "Select Aiko’s appearance:",
-        ["Red Dress", "Pink Hair (Casual)", "Pink Hair (Elegant)"]
+        ["Pink Hair (Casual)", "Pink Hair (Elegant)"]
     )
 
-    if choice == "Red Dress":
-        st.image("images/girl1.jpg", caption="Aiko 💕", use_container_width=True)
-    elif choice == "Pink Hair (Casual)":
+
+    if choice == "Pink Hair (Casual)":
         st.image("images/girl2.jpg", caption="Aiko 🌸", use_container_width=True)
     else:
         st.image("images/girl3.jpg", caption="Aiko ✨", use_container_width=True)
